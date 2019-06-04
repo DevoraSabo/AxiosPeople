@@ -4,7 +4,7 @@ using System.Text;
 
 using Microsoft.EntityFrameworkCore;
 
-namespace PeopleRepository
+namespace AxiosPplReact.Data
 {
     public class PeopleContext : DbContext
     {

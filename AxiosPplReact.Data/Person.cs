@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PeopleRepository
+namespace AxiosPplReact.Data
 {
     public class Person
     {

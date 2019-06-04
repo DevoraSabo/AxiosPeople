@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace PeopleRepository
+namespace AxiosPplReact.Data
 {
     public class PeopleContextFactory : IDesignTimeDbContextFactory<PeopleContext>
     {
