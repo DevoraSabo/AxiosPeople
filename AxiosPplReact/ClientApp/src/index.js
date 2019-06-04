@@ -22,9 +22,9 @@ class App extends React.Component {
     //    this.setState({ person });
     //}
 
-    onAddFake = () => {
+    onAddPerson = () => {
 
-        axios.post('/api/sample/personage', { firstName, lastName, age }).then(({ data }) => {
+        axios.post('/api/home/person', { firstName, lastName, age }).then(({ data }) => {
             this.state.people.push(data);
             this.setState({ people: this.state.people });
         });

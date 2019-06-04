@@ -25,7 +25,7 @@ namespace AxiosPplReact.Controllers
         [HttpGet]
         public Person GetPerson(Person p)
         {
-            var repo = new PeopleRepository(_connectionString);
+            PeopleRepository repo = new PeopleRepository(_connectionString);
             
             return new Person
             {
